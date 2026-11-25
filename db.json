@@ -1,0 +1,39 @@
+{
+  "tutores": [
+    {
+      "id": 1,
+      "nome": "Mariana Souza",
+      "email": "mariana@petshop.com",
+      "endereco": "Rua das Flores, 120 - Ponta Grossa/PR"
+    },
+    {
+      "id": 2,
+      "nome": "Carlos Pereira",
+      "email": "carlos@petshop.com",
+      "endereco": "Av. Visconde de Mauá, 450 - Ponta Grossa/PR"
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "nome": "Thor",
+      "descricao": "Cachorro, golden retriever, 3 anos. Muito dócil e brincalhão.",
+      "vacinado": true,
+      "tutorId": 1
+    },
+    {
+      "id": 2,
+      "nome": "Mia",
+      "descricao": "Gata siamesa, 1 ano. Tem medo de barulho.",
+      "vacinado": false,
+      "tutorId": 1
+    },
+    {
+      "id": 3,
+      "nome": "Bidu",
+      "descricao": "Cachorro vira-lata, 5 anos. Alérgico a frango.",
+      "vacinado": true,
+      "tutorId": 2
+    }
+  ]
+}
